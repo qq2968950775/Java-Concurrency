@@ -8,8 +8,8 @@ import java.util.concurrent.atomic.AtomicReference;
  * 使用原子性操作
  */
 public class Test25 {
-    private final AtomicReference<BigInteger> lastNumber = new AtomicReference<>();
-    private final AtomicReference<BigInteger[]> lastFactois = new AtomicReference<>();
+    private final AtomicReference<BigInteger> lastNumber = new AtomicReference<BigInteger>();
+    private final AtomicReference<BigInteger[]> lastFactois = new AtomicReference<BigInteger[]>();
 
     public void service(){
         //bigInteger的值从别处获取

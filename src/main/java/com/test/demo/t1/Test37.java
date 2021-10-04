@@ -26,7 +26,7 @@ class EventSource{
 
     }
 }
-class EventListener{
+class EventListener1{
 
     public void onEvent(Event event){
 
