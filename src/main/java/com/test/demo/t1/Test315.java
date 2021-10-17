@@ -11,6 +11,6 @@ public class Test315 {
 
     // data 本身是可变的，如果将它作为不可对象来时候，多个线程之间共享对象时，可以省去对锁的使用
     public static void main(String[] args) {
-        SortedMap<String, Date> map = Collections.synchronizedSortedMap(new SortedMap<String, Date>());
+       // SortedMap<String, Date> map = Collections.synchronizedSortedMap(new SortedMap<String, Date>());
     }
 }
